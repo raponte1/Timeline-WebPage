@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.title {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 53px;
+  font-family: Helvetica, sans-serif, Arial;
+  text-align: center;
+  color: #df421b;
+  text-shadow: 4px 4px 4px #5c5b5b;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(226, 226, 226);
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(190, 190, 190);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #df421b;
+  color: white;
+}
+
+#img-caption {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
+
+#side-img1 {
+  position: relative;
+  text-align: center;
+  top: 20%;
+  left: 20%;
+  max-width: 30%;
+  max-height: 40%;
+}
+
+#side-img2 {
+  position: relative;
+  text-align: center;
+  top: 20%;
+  left: 25%;
+  max-width: 30%;
+  max-height: 35%;
+}
+
+#timeline-info {
+  max-width: 680px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  left: 90%;
+}
+
+#timeline-info > h3 {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(46, 46, 46);
+  text-decoration: underline;
+  /* float:right; */
+}
+
+#tribute-info > ul li {
+  margin-bottom: 10px;
+  background-color: black;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(0, 0, 0);
+  /* float:right; */
+}
